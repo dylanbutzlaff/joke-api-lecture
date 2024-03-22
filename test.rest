@@ -1,0 +1,18 @@
+
+### Variables
+@url = http://localhost:3001
+
+### Get random joke
+
+GET {{url}}/api/v1/random
+
+
+### Add joke
+
+POST {{url}}/api/v1/new
+Content-Type: application/json
+
+{
+  "joke": "This is a joke",
+  "punchline": "This is a punchline"
+} 
